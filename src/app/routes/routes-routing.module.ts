@@ -8,6 +8,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './sessions/login/login.component';
 import { RegisterComponent } from './sessions/register/register.component';
 import { AuthGuard } from '@core';
+import { CarUsedComponent } from './car-used/car-used.component';
+import { WorkingDataComponent } from './working-data/working-data.component';
+import { EmployeeComponent } from './employee/employee.component';
 
 const routes: Routes = [
   {
@@ -21,6 +24,21 @@ const routes: Routes = [
         path: 'dashboard',
         component: DashboardComponent,
         data: { title: 'Dashboard', titleI18n: 'dashboard' },
+      },
+      {
+        path: 'employee',
+        component: EmployeeComponent,
+        data: { title: 'Employee', titleI18n: 'employee' },
+      },
+      {
+        path: 'car-used',
+        component: CarUsedComponent,
+        data: { title: 'Car Used', titleI18n: 'car-used' },
+      },
+      {
+        path: 'working-data',
+        component: WorkingDataComponent,
+        data: { title: 'Working Data', titleI18n: 'working-data' },
       },
       {
         path: 'sessions',

@@ -1,6 +1,9 @@
 {
   "menu": {
     "dashboard": "Dashboard",
+    "car-use": "ข้อมูลการใช้รถ",
+    "working-data": "ข้อมูลการปฎิบัตืการ",
+    "employee": "ข้อมูลเจ้าหน้าที่",
     "design": "Design",
     "design.colors": "Color System",
     "design.icons": "Material Icons",

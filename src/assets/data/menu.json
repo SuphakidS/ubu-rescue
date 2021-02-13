@@ -3,11 +3,25 @@
       "route": "dashboard",
       "name": "dashboard",
       "type": "link",
-      "icon": "dashboard",
-      "badge": {
-        "color": "red-500",
-        "value": "5"
-      }
+      "icon": "dashboard"
+    },
+    {
+      "route": "employee",
+      "name": "employee",
+      "type": "link",
+      "icon": "transfer_within_a_station"
+    },
+    {
+      "route": "car-used",
+      "name": "car-use",
+      "type": "link",
+      "icon": "directions_car"
+    },
+    {
+      "route": "working-data",
+      "name": "working-data",
+      "type": "link",
+      "icon": "assignment"
     },
     {
       "route": "sessions",
